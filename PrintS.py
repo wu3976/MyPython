@@ -1,0 +1,11 @@
+phrase="Chenjie Wu"
+print(phrase.upper()+" is good!")
+print(phrase.isupper())
+print(phrase.islower())
+print(phrase.upper().isupper())
+length_of_string=len(phrase)
+print(length_of_string)
+print(phrase[0])
+print (phrase.index("C"))
+phrase2=phrase.replace("Chenjie", "CHENJIE")
+print(phrase2)
